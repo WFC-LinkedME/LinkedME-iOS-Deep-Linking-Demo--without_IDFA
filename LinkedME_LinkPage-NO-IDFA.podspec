@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name                  = "LinkedME_LinkPage_without-IDFA"
+s.name                  = "LinkedME_LinkPage-NO-IDFA"
 s.version          	= '1.5.4.8'
 s.summary               = "LinkedME Deeplink"
 s.description           = <<-DESC
