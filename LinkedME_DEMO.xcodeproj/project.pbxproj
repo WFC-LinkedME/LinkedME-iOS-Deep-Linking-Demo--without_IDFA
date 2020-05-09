@@ -16,7 +16,6 @@
 		870102051D06AA22002E6881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870102041D06AA22002E6881 /* Assets.xcassets */; };
 		870102081D06AA22002E6881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870102061D06AA22002E6881 /* LaunchScreen.storyboard */; };
 		870102301D06B274002E6881 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8701022F1D06B274002E6881 /* DetailViewController.m */; };
-		870102321D06B4A3002E6881 /* DefaultData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 870102311D06B4A3002E6881 /* DefaultData.plist */; };
 		870102821D06B904002E6881 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870102811D06B904002E6881 /* SystemConfiguration.framework */; };
 		870102841D06B910002E6881 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870102831D06B910002E6881 /* Security.framework */; };
 		870102861D06B91B002E6881 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870102851D06B91B002E6881 /* CoreGraphics.framework */; };
@@ -26,6 +25,7 @@
 		8701028E1D06B999002E6881 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8701028D1D06B999002E6881 /* libsqlite3.tbd */; };
 		870102981D06D788002E6881 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 870102971D06D788002E6881 /* DemoViewController.m */; };
 		C46475C22452E5A2006568FD /* LinkedME_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46475C12452E5A2006568FD /* LinkedME_iOS.framework */; };
+		C49772942456B5F600D736CD /* DefaultData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C49772932456B5F600D736CD /* DefaultData.plist */; };
 		C4D71B241D4F08890096341C /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87105D3F1D2235FD00989202 /* CoreSpotlight.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,6 @@
 		8701022D1D06AB78002E6881 /* LinkedME_DEMO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LinkedME_DEMO.entitlements; sourceTree = "<group>"; };
 		8701022E1D06B274002E6881 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		8701022F1D06B274002E6881 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		870102311D06B4A3002E6881 /* DefaultData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultData.plist; sourceTree = "<group>"; };
 		870102811D06B904002E6881 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		870102831D06B910002E6881 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		870102851D06B91B002E6881 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +62,7 @@
 		870102971D06D788002E6881 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		87105D3F1D2235FD00989202 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
 		C46475C12452E5A2006568FD /* LinkedME_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LinkedME_iOS.framework; sourceTree = "<group>"; };
+		C49772932456B5F600D736CD /* DefaultData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +124,9 @@
 				8701022D1D06AB78002E6881 /* LinkedME_DEMO.entitlements */,
 				870101FB1D06AA22002E6881 /* AppDelegate.h */,
 				870101FC1D06AA22002E6881 /* AppDelegate.m */,
+				C49772932456B5F600D736CD /* DefaultData.plist */,
 				870101FE1D06AA22002E6881 /* ViewController.h */,
 				870101FF1D06AA22002E6881 /* ViewController.m */,
-				870102311D06B4A3002E6881 /* DefaultData.plist */,
 				8701022E1D06B274002E6881 /* DetailViewController.h */,
 				8701022F1D06B274002E6881 /* DetailViewController.m */,
 				870102961D06D788002E6881 /* DemoViewController.h */,
@@ -248,7 +248,7 @@
 			files = (
 				870102081D06AA22002E6881 /* LaunchScreen.storyboard in Resources */,
 				870102051D06AA22002E6881 /* Assets.xcassets in Resources */,
-				870102321D06B4A3002E6881 /* DefaultData.plist in Resources */,
+				C49772942456B5F600D736CD /* DefaultData.plist in Resources */,
 				870102031D06AA22002E6881 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
