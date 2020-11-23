@@ -6,10 +6,10 @@ s.description           = <<-DESC
 LinkedME Deeplink for iOS.
 DESC
 
-s.homepage              = "https://github.com/WFC-LinkedME/LinkedME-iOS-Deep-Linking-Demo.git"
+s.homepage              = "https://github.com/WFC-LinkedME/LinkedME-iOS-Deep-Linking-Demo--without_IDFA.git"
 s.license               = 'MIT'
 s.author                = { "Bindx" => "487479@gmail.com"}
-s.source                = { :git => "https://github.com/WFC-LinkedME/LinkedME-iOS-Deep-Linking-Demo.git", :tag => s.version }
+s.source                = { :git => "https://github.com/WFC-LinkedME/LinkedME-iOS-Deep-Linking-Demo--without_IDFA.git", :tag => s.version }
 
 s.vendored_frameworks = 'LinkedME_DEMO/LinkedME_iOS.framework'
 
